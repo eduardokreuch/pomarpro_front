@@ -36,9 +36,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },"src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -98,6 +99,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -105,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c94a8b80-7a6d-4c31-baf1-bad83e9dc528"
   }
 }

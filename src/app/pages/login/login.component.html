@@ -1,0 +1,16 @@
+<div class="fundo">
+    <section>
+        <header>
+            <img src="assets/img/pomarpro (1).png">
+        </header>
+        <form [formGroup]="form">
+            <input type="text"  formControlName="usuario">
+            <input class="password" placeholder= "senha" formControlName="senha">
+            <p class = "erro">{{msg_erro}}</p>
+            <button (click)="onlogin()">entrar</button>
+    
+        </form>
+        <footer>dezenvolvido pelo eduardo</footer>
+    </section>
+</div>
+
